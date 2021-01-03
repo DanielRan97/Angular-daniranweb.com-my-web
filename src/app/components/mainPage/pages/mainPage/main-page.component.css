@@ -1,0 +1,62 @@
+nav {
+  background-color: darkcyan !important;
+  position: fixed;
+  width: 100%;
+  z-index: +1;
+}
+
+
+nav a {
+  color: black;
+  margin: 5px;
+  font-size: 30px;
+
+}
+
+nav a:hover {
+  color: white;
+}
+
+
+#navIcons {
+  position: absolute;
+  bottom: 20px;
+  right: 28px;
+}
+
+
+.navButton {
+  border: none;
+  background: none;
+  color: black;
+  position: relative;
+  top: 5px;
+  left: 45px;
+
+}
+
+
+.navButton:focus {
+  outline: 0;
+}
+
+.navButton:hover {
+  color: white;
+}
+
+
+#welcome {
+  position: relative;
+  display: block;
+}
+
+@media(max-width : 991px) {
+  .navButton {
+    border: none;
+    background: none;
+    color: black;
+    position: relative;
+    top: 5px;
+    left: 0px;
+  }
+}

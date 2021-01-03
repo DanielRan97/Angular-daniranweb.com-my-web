@@ -1,0 +1,33 @@
+#projects{
+    text-align: center;
+    background-color:#f3f3f5;
+    margin-top: 60px;
+}
+
+h1 {
+    font-family: 'Unna', serif;
+    font-size: 72px;
+    color: #4f4f4f;
+    font-weight: bold;
+  
+  }
+
+  #imgDiv{
+    max-width:900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img{
+    height: auto;
+     max-width: 100%;
+  }
+
+  h3{
+      margin-top: 20px;
+  }
+
+  a{
+    font-size: 20px;
+    color: black;
+  }

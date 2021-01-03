@@ -1,0 +1,27 @@
+#about {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+img {
+  height: 202px;
+  width: 203px;
+  border-radius: 100%;
+  border: 10px solid #ddd;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+h1 {
+  font-family: 'Unna', serif;
+  font-size: 72px;
+  color: #4f4f4f;
+  font-weight: bold;
+
+}
+
+#text {
+  text-align: center;
+}

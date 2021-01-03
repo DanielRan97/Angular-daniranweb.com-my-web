@@ -1,0 +1,65 @@
+#welcome {
+  text-align: center;
+  height: 680px;
+  width: 100%;
+  background-image: url('https://cdn.pixabay.com/photo/2016/02/19/10/00/laptop-1209008_1280.jpg');
+  background-position: center;
+  display: block;
+
+}
+
+#bgcolor {
+  background-color: #ffffffbf;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#title{
+  margin-top: 300px;
+}
+
+h1 {
+  font-family: 'Unna', serif;
+  font-size: 72px;
+  color: #4f4f4f;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Unna', serif;
+  font-size: 50px;
+  color: #4f4f4f;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: 'Unna', serif;
+  font-size: 30px;
+  background-color: darkcyan;
+  display: inline-block;
+  padding: 1px;
+  color: #2c2c2c;
+  font-weight: bold;
+}
+
+h1 , h3 , h5 , .downBottub {
+margin-top: 20px;
+}
+
+
+
+@media (max-width : 441px){
+
+  h1 {
+    font-size: 64px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+}
+
+
+
