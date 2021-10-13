@@ -17,7 +17,7 @@
   left: 0px;
 }
 
-#title{
+#title {
   margin-top: 300px;
 }
 
@@ -45,21 +45,22 @@ h5 {
   font-weight: bold;
 }
 
-h1 , h3 , h5 , .downBottub {
-margin-top: 20px;
+h1,
+h3,
+h5,
+.downBottub {
+  margin-top: 20px;
 }
 
 
 
-@media (max-width : 441px){
+@media (max-width : 441px) {
 
   h1 {
     font-size: 64px;
   }
+
   h5 {
     font-size: 20px;
   }
 }
-
-
-
